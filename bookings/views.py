@@ -4,3 +4,9 @@ from django.http import HttpResponse
 
 def bookings(request):
     return HttpResponse("This is the booking page")
+
+    return render(
+        request,
+        "bookings/booking.html",
+        {"bookings": bookings}
+    )
