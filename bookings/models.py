@@ -8,5 +8,13 @@ class Post(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="bookings"
     )
-    booking_time = models.DateTimeField()
+    BOOKING_TIME_CHOICES = [
+        ('18:00', "6:00PM"),
+        ('19:00', "7:00PM"),
+        ('20:00', "10:00PM"),
+        ('21:00', "9:00PM"),
+        ('22:00', "10:00PM")
+    ]
+    booking_time = models.DateTimeField(choices=BOOKING_TIME_CHOICES)
     created_on = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now=True)
