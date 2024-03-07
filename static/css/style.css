@@ -92,5 +92,15 @@ body {
 }
 
 .home-content h1 {
-    
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow: 0, 0, 0, .3;
+}
+
+.home-content h2 {
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow: 0, 0, 0, .3;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
