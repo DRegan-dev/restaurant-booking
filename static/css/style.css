@@ -46,3 +46,8 @@ body {
     transition: .5s;
     z-index: 100;
 }
+
+.navbar a:hover,
+.navbar a:active {
+    color: #b9202c;
+}
