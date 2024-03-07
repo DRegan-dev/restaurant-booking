@@ -82,3 +82,11 @@ body {
     flex-direction: column;
     color: #bdb76b;
 }
+
+.home-content {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #bdb76b;
+}
