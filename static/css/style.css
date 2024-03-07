@@ -6,3 +6,10 @@
     box-sizing: border-box;
     font-family: 'Oswald', 'Phudu', sans-serif;
 }
+
+body {
+    color: #fff;
+    overflow: hidden;
+    background: cornsilk;
+    z-index: 0;
+}
