@@ -175,4 +175,9 @@ body {
     font-weight: 500;
 }
 
-.starter-options
+.starter-options .entree-options {
+    padding: 20px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 20px;
+}
+
