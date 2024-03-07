@@ -161,3 +161,11 @@ body {
     text-align: center;
     border-radius: 6px;
 }
+
+.popup-menu .menu-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 5px;
+}
