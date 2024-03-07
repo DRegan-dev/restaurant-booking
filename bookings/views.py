@@ -8,7 +8,7 @@ from .models import Post
 #     return HttpResponse("This is the booking page")
 
 def bookings(request):
-    return render(request, "bookings/bookings.html")
+    return render(request, "bookings/booking.html")
 
 
     # return render(
