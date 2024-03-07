@@ -207,3 +207,11 @@ body {
     font-size: 12px;
 }
 
+.popup-menu .dessert-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 5px;
+}
+
