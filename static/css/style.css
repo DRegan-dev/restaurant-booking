@@ -169,3 +169,10 @@ body {
     border-bottom: 2px solid goldenrod;
     margin-bottom: 5px;
 }
+
+.menu-header span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.starter-options
