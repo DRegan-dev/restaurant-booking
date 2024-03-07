@@ -27,3 +27,9 @@ class Post(models.Model):
     def validate_future_date(value):
         if value < timezone.now().date():
             raise ValidationError("Selected date must be today or in the future")
+
+    class Meta:
+        ordering = ["-created_on"]
+
+    def __str__(self):
+        return f"{self.name} | {self.booking_date} | {self.booking_time}"
