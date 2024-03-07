@@ -139,4 +139,25 @@ body {
     position: absolute;
     width: 600px;
     background: #bfbc8f;
+    border: 2px solid goldenrod;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(.9);
+    transition: .3 ease;
+    transition-delay: 0;
+    z-index: 110;
+    top: 2%;
+    left: 25%;
+    height: 95vh;
+}
+
+.popup-menu h1 {
+    font-family: 'Phudu', 'Oswald', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 6px;
 }
