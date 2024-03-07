@@ -110,3 +110,20 @@ body {
     text-align: center;
     text-shadow: 0 0 15px rgb(185, 32, 44);
 }
+
+.home-content .menu_btn {
+    width: 190px;
+    height: 55px;
+    background: #b9202c;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #b9292c;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
