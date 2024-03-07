@@ -127,3 +127,9 @@ body {
     transition: .3s;
     margin-top: 20px;
 }
+
+.home-content .menu_btn:hover {
+    background: #d05660;
+    color: #fff;
+    border: 2px solid #fff;
+}
