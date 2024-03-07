@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 from django.core.validators import MinValueValidator, MaxValueValidator
+
+STATUS = ((0, "Awaiting Arrival"), (1, "In-Progress"), (2, "Complete/Paid"))
 # Create your models here.
 
 class Post(models.Model):
@@ -23,6 +25,7 @@ class Post(models.Model):
     special_requests = models.TextField(null=True)
 
     approved = models.BooleanField(default=False)
+    status = models.IntegerField(choices=STATUS, default=0)
 
     def validate_future_date(value):
         if value < timezone.now().date():
