@@ -7,11 +7,12 @@ from .models import Post
 # def bookings(request):
 #     return HttpResponse("This is the booking page")
 
-class BookingPage(generic.CreateView):
-    template_name = "bookings/booking.html"
+def bookings(request):
+    return render(request, "bookings/bookings.html")
 
-    return render(
-        request,
-        "bookings/booking.html",
-        {"bookings": bookings}
-    )
+
+    # return render(
+    #     request,
+    #     "bookings/booking.html",
+    #     {"bookings": bookings}
+    # )
